@@ -1,0 +1,2 @@
+#put this file in /etc/cron.d/
+*/5 * * * * root /usr/local/bin/check_wifi.sh > /dev/null 2>&1
